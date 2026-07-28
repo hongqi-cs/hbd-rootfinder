@@ -1,7 +1,23 @@
-# HBD Root-Finder — C++/GMP Implementation
+# HBD Root-Finder: Horner–Binary Deflation for Polynomial Roots 
+## C++/GMP Implementation
 
 Reproduces all experiments from:
-**基于确定性2×n卷积矩阵的多项式求根方法**
+**A Horner-Bisection Deflation Architecture for Polynomial Root-Finding**
+
+HBD (Horner–Binary Deflation Root-Finder) is an algorithm for finding 
+all roots of a univariate polynomial by combining Horner's nested 
+evaluation scheme with a binary-synchronous deflation strategy.
+
+Unlike classical Newton–Horner methods that deflate polynomials 
+sequentially (one root at a time), HBD performs synchronous deflation 
+in a binary-search framework, reducing the computational complexity 
+of repeated deflations while maintaining numerical stability.
+
+## Features
+- Based on Horner's optimal O(n) evaluation scheme
+- Binary-synchronous deflation for reduced computational overhead
+- Suitable for hardware pipeline implementation
+- Implemented in [language(s)]
 
 ## Prerequisites (Ubuntu 22.04)
 
@@ -64,3 +80,10 @@ HBD (Horner-Bisection Deflation):
 - Root r = -x* (where Φ(x*) = 0)
 - Quotient = Horner intermediate sequence [1, f₁, …, f_{n-1}]
 - Single-stage error injection (vs HB-ED's two-stage)
+ 
+
+## Author
+Hong Qi (Independent Researcher)
+Email: cs.hongqi@outlook.com
+ORCID: 0009-0004-3792-1126
+GitHub: @hongqi-cs
