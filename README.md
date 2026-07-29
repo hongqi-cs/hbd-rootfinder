@@ -1,6 +1,8 @@
 # HBD Root-Finder: Horner–Binary Deflation for Polynomial Roots 
 ## C++/GMP Implementation
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21669964.svg)](https://doi.org/10.5281/zenodo.21669964)
+
 Reproduces all experiments from:
 **A Horner-Bisection Deflation Architecture for Polynomial Root-Finding**
 
