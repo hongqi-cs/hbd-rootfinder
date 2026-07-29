@@ -85,7 +85,7 @@ HBD (Horner-Bisection Deflation):
  
 
 ## Author
-Hong Qi (Independent Researcher)
+Hong QI (Independent Researcher)
 Email: cs.hongqi@outlook.com
 ORCID: 0009-0004-3792-1126
 GitHub: @hongqi-cs
