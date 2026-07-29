@@ -18,6 +18,7 @@ int main() {
         "./build/exp5_wilkinson",
         "./build/exp6_multiple",
         "./build/exp7_memory",
+        "./build/exp9_vieta",
     };
     const char* names[] = {
         "Experiment 8: HBD vs HB-ED Baseline",
@@ -25,6 +26,7 @@ int main() {
         "Experiment 5: Wilkinson W20",
         "Experiment 6: Multiple Roots",
         "Experiment 7: Memory Scaling",
+        "Experiment 9: Pure Vieta vs Vieta+Cauchy",
     };
 
     int n_exps = sizeof(exps) / sizeof(exps[0]);

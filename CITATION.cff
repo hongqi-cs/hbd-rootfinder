@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "HBD Root-Finder: Horner¨CBinary Deflation for Polynomial Root Finding"
+abstract: "HBD (Horner¨CBinary Deflation Root-Finder) is an algorithm for finding all roots of a univariate polynomial by combining Horner's nested evaluation scheme with a binary-synchronous deflation strategy."
+authors:
+  - family-names: "QI"
+    given-names: "Hong"
+    orcid: "0000-XXXX-XXXX-XXXX"
+    affiliation: "Independent Researcher, Shanghai, China"
+    email: "cs.hongqi@outlook.com"
+keywords:
+  - polynomial root-finding
+  - Horner's method
+  - binary deflation
+  - numerical analysis
+license: MIT
+repository-code: "https://github.com/hongqi-cs/hbd-rootfinder"
+url: "https://github.com/hongqi-cs/hbd-rootfinder"
